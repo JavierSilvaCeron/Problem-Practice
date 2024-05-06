@@ -3,9 +3,8 @@ package Resources;
 public class isPalindrome {
     public boolean isPalindrome(String s) {
         if (s == null || s.length() == 0) {
-            return true; // Empty string or null is considered a palindrome
+            return true; 
         }
-        
         s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
         int left = 0;
         int right = s.length() - 1;
