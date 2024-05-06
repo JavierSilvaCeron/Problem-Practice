@@ -11,7 +11,8 @@ import java.util.HashMap;
 public class OA1 {
     /*
     1. Code Question 1
-    The developers at Amazon employ several algorithms for encrypting passwords. In one algorithm, the developers aim ti encrypt palindromic passwords. Palindromic passwords are ones that read the same foward and backward.
+    The developers employ several algorithms for encrypting passwords. In one algorithm, the developers aim ti encrypt palindromic passwords. 
+    Palindromic passwords are ones that read the same foward and backward.
     The algorithm rearranges the characters to have the following characteristics:
     It is a rearrangement of the original palindromic password.
     It is also a palindrome
