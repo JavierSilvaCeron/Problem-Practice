@@ -12,7 +12,13 @@ public class _2340_Minimun_Adjacent_Sawps_to_Make_Array {
                 mini = i;
             }
         }
-        return (nums.length - 1 - maxi) + mini - (mini > maxi ? 1 : 0);
+        int totalSwaps;
+        if (mini > maxi) {
+            totalSwaps = (nums.length - 1 - maxi) + mini - 1;
+        } else {
+            totalSwaps = (nums.length - 1 - maxi) + mini ;
+        }
+        return totalSwaps;
     }
 
 }
