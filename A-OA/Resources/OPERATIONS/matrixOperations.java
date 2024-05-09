@@ -1,4 +1,4 @@
-package Resources;
+package Resources.OPERATIONS;
 
 public class matrixOperations {
 
@@ -78,7 +78,7 @@ public class matrixOperations {
 
             }
         }
-        printMatrix(matrix);
+        //printMatrix(matrix);
         return true;
     }
 

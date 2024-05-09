@@ -1,8 +1,8 @@
-package Resources;
+package Resources.OPERATIONS;
 
 import java.util.HashMap;
 
-public class !IntegerOperations {
+public class IntegerOperations {
 
     public int romanToInt(String s) {// Ej: III
         s = s + "0";

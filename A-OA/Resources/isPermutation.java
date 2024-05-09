@@ -3,7 +3,8 @@ package Resources;
 import java.util.HashMap;
 
 public class isPermutation {
-    public static boolean isPermutation(String s1, String s2) {
+
+    public boolean isPermutationChecker(String s1, String s2) {
         if(s1.length() != s2.length()) {
             return false;
         }
