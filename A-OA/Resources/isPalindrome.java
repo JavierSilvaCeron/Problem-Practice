@@ -1,7 +1,7 @@
 package Resources;
 
 public class isPalindrome {
-    public boolean isPalindrome(String s) {
+    public boolean isPalindromeSol(String s) {
         if (s == null || s.length() == 0) {
             return true; 
         }
@@ -17,4 +17,21 @@ public class isPalindrome {
         }
         return true; 
     }
+
+    //-------------------------------------------------------
+
+    public boolean isPalindromeSol(int number) {
+        String numString = String.valueOf(number);
+        int left = 0;
+        int right = numString.length() - 1;
+        while (left < right) {
+            if (numString.charAt(left++) != numString.charAt(right--)) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
+
+
 }
